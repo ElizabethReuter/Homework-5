@@ -12,3 +12,8 @@ let myCalendar = {
     "5 PM": "",
     "6 PM": "",
 };  
+
+    // gets current time and day information and displays on html
+var currentDay = $("#currentDay");
+    currentDay = moment().format('MMMM Do YYYY, h:mm:ss a'); 
+    $("#currentDay").text(currentDay);

@@ -17,3 +17,5 @@ let myCalendar = {
 var currentDay = $("#currentDay");
     currentDay = moment().format('MMMM Do YYYY, h:mm:ss a'); 
     $("#currentDay").text(currentDay);
+
+    
